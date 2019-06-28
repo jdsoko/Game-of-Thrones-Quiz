@@ -54,6 +54,7 @@ a{
     position: absolute;
     right: 140px;
     margin-top: -60px;
+  
 }
 
 .question{
@@ -149,7 +150,7 @@ label{
     padding: 10px;
     width: 220px;
     background-color:silver;
-    
+    margin-bottom: 50px;
     border-radius: 5px;
     color: black;
 }
@@ -199,8 +200,78 @@ input[type="radio"]:checked+ div{
     color: black;
 }
 
-@media screen and (max-width: 900px){
-    .headerContent{
-        display: block;
+#space{
+  height: 50px;
+}
+
+@media screen and (max-width: 800px){
+    
+    
+    .questionCount{
+      display: static;
+      top: 150px;
+      text-align: center;
+      position: initial;
     }
+
+
+    #logo img{
+      padding-top: 30px;
+      width: 250px;
+      left: 50px;
+      position: initial;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+
+    .scoreCount{
+      position: initial;
+      
+      padding-top: 55px;
+      text-align: center;
+      display: block;
+    }
+    
+    .startContent{
+      margin-top: -150px;
+    }
+
+
+    body{
+      padding-left: 20px;
+    }
+
+    .feedback{
+        width: 300px;
+        font-size: 12pt;
+        height: 435px;
+    }
+
+    .feedbackImage{
+      height: 150px;
+      width: 150px;
+    }
+
+    .finalScore{
+      width: 250;
+      height: 470px;
+    }
+
+    .finalImage{
+        height: 150px;
+        width: 200px;
+    }
+  .next, .replay{
+    width: 180px;
+    margin-bottom: 30px;
+  }
+
+  .startButton{
+    margin-top: -40px;
+  }
+
+
+  
 }
