@@ -163,6 +163,8 @@ function readAnswer(){
     })
 }
 
+
+
 //generates feedback for correct answer
 function generateCorrectFeedback(){
     return `<h1 class="question">Question ${questionNum}: ${DATA[questionNum-1].question}</h1>
