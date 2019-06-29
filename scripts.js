@@ -20,7 +20,7 @@ const DATA = [
     }, 
     
     { 
-        question: `What is that name of the dragon that is resurrected by the Night King?`, 
+        question: `What is the name of the dragon that is resurrected by the Night King?`, 
         answers: ['Viserion', 'Drogon', 'Rhaegal', 'Viserys'], 
         correctAnswer: 'Viserion', 
     }, 
