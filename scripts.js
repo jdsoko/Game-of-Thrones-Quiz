@@ -100,7 +100,6 @@ function generateQuestion(){
 
  return `<form class="questionForm" ><h1 class="question">Question ${questionNum}: ${DATA[questionNum-1].question}</h1>
         
-
  <label class="radioInput">
     
         <input type="radio" class="radioInput" name="answer" value="${DATA[questionNum-1].answers[0]}" required>
@@ -108,8 +107,6 @@ function generateQuestion(){
         ${DATA[questionNum-1].answers[0]}
         </div>
 </label>
-
-
 
  <label>
     
@@ -119,8 +116,6 @@ function generateQuestion(){
         </div>
 </label>
 
-
-
 <label>
     
         <input type="radio" class="radioInput"  name="answer" value="${DATA[questionNum-1].answers[2]}" required>
@@ -129,8 +124,6 @@ function generateQuestion(){
         </div>
 </label>
 
-
-
 <label>
     
         <input type="radio" class="radioInput"  name="answer" value="${DATA[questionNum-1].answers[3]}" required>
@@ -138,7 +131,6 @@ function generateQuestion(){
         ${DATA[questionNum-1].answers[3]}
         </div>
 </label>
-
 
 <div class="submitButton">
 <input type="submit" value="Submit" class='submit'>
@@ -224,7 +216,7 @@ function generateFinalScreenGood(){
     
     <div class="finalScore">
         <h2>Final Score: ${score}/10 </h2>
-        <img class ="finalImage" src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2019/03/SEI_57275339.jpg?quality=90&strip=all&zoom=1&resize=644%2C362&ssl=1">
+        <img class ="finalImage" src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2019/03/SEI_57275339.jpg?quality=90&strip=all&zoom=1&resize=644%2C362&ssl=1" alt="The Iron Thrones from Game of Thrones">
         <h2>Congratulations! Long May you Reign!</h2>
         <div class="restartButton">
             <button type="button" class="replay">Replay</button>
@@ -237,7 +229,7 @@ function generateFinalScreenGood(){
 function badFinalScreen(){
 return `<div class="finalScore">
 <h2>Final Score: ${score}/10 </h2>
-<img class ="finalImage" src="https://imgix.bustle.com/rehost/2016/12/19/25f6ec1c-c818-453b-a98d-ce03b6008520.png?w=970&h=546&fit=crop&crop=faces&auto=format&q=70">
+<img class ="finalImage" src="https://imgix.bustle.com/rehost/2016/12/19/25f6ec1c-c818-453b-a98d-ce03b6008520.png?w=970&h=546&fit=crop&crop=faces&auto=format&q=70" alt="Wounded Jon Snow from Game of Thrones">
 <h2>Not Terrible, But Not Quite. Get Resurrected and Try Again.</h2>
 <div class="restartButton">
     <button type="button" class="replay">Replay</button>
@@ -250,7 +242,7 @@ return `<div class="finalScore">
 function reallyBadFinalScreen(){
     return `<div class="finalScore">
     <h2>Final Score: ${score}/10 </h2>
-    <img class ="finalImage" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F05%2Fgame-of-thrones-season-8-episodes-4-and-5-worst-rated-viewings-1.jpg?q=75&w=800&cbr=1&fit=max">
+    <img class ="finalImage" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F05%2Fgame-of-thrones-season-8-episodes-4-and-5-worst-rated-viewings-1.jpg?q=75&w=800&cbr=1&fit=max" alt="Upset-Looking Daenerys Targaryen from Game of Thrones">
     <h2>Poor Attempt. Consider Studying at the Citadel.</h2>
     <div class="restartButton">
         <button type="button" class="replay">Replay</button>
@@ -280,8 +272,6 @@ function restartQuiz(){
 
     })
 }
-
-
 
 
 //initiates functions
