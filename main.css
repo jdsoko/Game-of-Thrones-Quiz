@@ -280,7 +280,7 @@ input[type="radio"]:checked+ div{
         
     }
     .startButton{
-        margin-bottom: 120px;
+        padding-bottom: 120px;
     }
 }
   
