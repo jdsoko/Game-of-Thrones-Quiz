@@ -279,8 +279,8 @@ input[type="radio"]:checked+ div{
         background-size: cover;
         
     }
-    .startButton{
-        padding-bottom: 120px;
+    .space{
+        height: 50px;
     }
 }
   
