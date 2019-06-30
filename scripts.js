@@ -98,7 +98,7 @@ function changeScore(){
 // generates question HTML to insert into DOM
 function generateQuestion(){
 
- return `<form class="questionForm" ><h1 class="question">Question ${questionNum}: ${DATA[questionNum-1].question}</h1>
+ return `<form class="questionForm" ><legend class="question">Question ${questionNum}: ${DATA[questionNum-1].question}</legend>
         
  <label class="radioInput">
     

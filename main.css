@@ -245,6 +245,7 @@ input[type="radio"]:checked+ div{
         width: 300px;
         font-size: 12pt;
         height: 435px;
+        margin-top: -15px;
     }
 
     .feedbackImage{
@@ -253,7 +254,7 @@ input[type="radio"]:checked+ div{
     }
 
     .finalScore{
-      width: 250;
+      width: 300px;
       height: 470px;
     }
 
@@ -264,12 +265,17 @@ input[type="radio"]:checked+ div{
   .next, .replay{
     width: 180px;
     margin-bottom: 30px;
+    margin-top: -2px;
   }
 
   .startButton{
     margin-top: -40px;
     
   }
+
+  .space{
+    height: 30px;
+}
 
 @media screen and (max-width: 410px){
     html{
@@ -280,6 +286,16 @@ input[type="radio"]:checked+ div{
     .space{
         height: 50px;
     }
+
+    .finalScore{
+        width: 200px;
+        height: 470px;
+        padding: 10px;
+        font-size: 12pt;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: -20px;
+      }
 }
   
 }
