@@ -242,7 +242,7 @@ input[type="radio"]:checked+ div{
     
 
     .feedback{
-        width: 300px;
+        width: 350px;
         font-size: 12pt;
         height: 435px;
         margin-top: -15px;
@@ -288,13 +288,13 @@ input[type="radio"]:checked+ div{
     }
 
     .finalScore{
-        width: 200px;
+        width: 250px;
         height: 470px;
         padding: 10px;
         font-size: 12pt;
         padding-left: 0px;
         padding-right: 0px;
-        margin-top: -20px;
+        margin-top: -3px;
       }
 }
   
