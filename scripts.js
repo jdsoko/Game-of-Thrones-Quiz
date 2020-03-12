@@ -1,4 +1,3 @@
-//array that contains questions and answers.
 const DATA = [ 
 
     { 
@@ -63,7 +62,6 @@ const DATA = [
     
     ];
 
-    ///
 
 var questionNum = 0;
 var score = 0;
@@ -171,7 +169,7 @@ function generateCorrectFeedback(){
     
     <div class="feedback">
         <h2>"Knowledge is power."</h2>
-        <img class="feedbackImage" src="http://assets.viewers-guide.hbo.com/large53596d69806c0@2x.jpg" alt="picture of Littlefinger from Game of Thrones">
+        <img class="feedbackImage" src="resources/large53596d69806c0@2x.jpg" alt="picture of Littlefinger from Game of Thrones">
         <h2>Excellent job, you got it right.</h2>
         <div class="nextButton">
             <button type="button" class="next ">Next</button>
@@ -188,7 +186,7 @@ function generateWrongFeedback(){
     
     <div class="feedback">
         <h2>"You know nothing."</h2>
-        <img class="feedbackImage" src="https://photos1.iorbix.com/00/00/00/00/02/53/43/14/Ygritte-Wildling-Virsa6R5R-b.jpg" alt="picture of Ygritte from Game of Thrones">
+        <img class="feedbackImage" src="resources/Ygritte-Wildling-Virsa6R5R-b.jpg" alt="picture of Ygritte from Game of Thrones">
         <h2>Incorrect. The correct answer is "${DATA[questionNum-1].correctAnswer}."</h2>
         <div class="nextButton">
             <button type="button" class="next ">Next</button>
@@ -218,7 +216,7 @@ function generateFinalScreenGood(){
     
     <div class="finalScore">
         <h2>Final Score: ${score}/10 </h2>
-        <img class ="finalImage" src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2019/03/SEI_57275339.jpg?quality=90&strip=all&zoom=1&resize=644%2C362&ssl=1" alt="The Iron Thrones from Game of Thrones">
+        <img class ="finalImage" src="resources/SEI_57275339.jpg" alt="The Iron Thrones from Game of Thrones">
         <h2>Congratulations! Long May you Reign!</h2>
         <div class="restartButton">
             <button type="button" class="replay">Replay</button>
@@ -231,7 +229,7 @@ function generateFinalScreenGood(){
 function badFinalScreen(){
 return `<div class="finalScore">
 <h2>Final Score: ${score}/10 </h2>
-<img class ="finalImage" src="https://imgix.bustle.com/rehost/2016/12/19/25f6ec1c-c818-453b-a98d-ce03b6008520.png?w=970&h=546&fit=crop&crop=faces&auto=format&q=70" alt="Wounded Jon Snow from Game of Thrones">
+<img class ="finalImage" src="resources/25f6ec1c-c818-453b-a98d-ce03b6008520.png" alt="Wounded Jon Snow from Game of Thrones">
 <h2>Not Terrible, But Not Quite. Get Resurrected and Try Again.</h2>
 <div class="restartButton">
     <button type="button" class="replay">Replay</button>
@@ -244,7 +242,7 @@ return `<div class="finalScore">
 function reallyBadFinalScreen(){
     return `<div class="finalScore">
     <h2>Final Score: ${score}/10 </h2>
-    <img class ="finalImage" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F05%2Fgame-of-thrones-season-8-episodes-4-and-5-worst-rated-viewings-1.jpg?q=75&w=800&cbr=1&fit=max" alt="Upset-Looking Daenerys Targaryen from Game of Thrones">
+    <img class ="finalImage" src="resources/https___hypebeast.com_image_2019_05_game-of-thrones-season-8-episodes-4-and-5-worst-rated-viewings-1.jpg" alt="Upset-Looking Daenerys Targaryen from Game of Thrones">
     <h2>Poor Attempt. Consider Studying at the Citadel.</h2>
     <div class="restartButton">
         <button type="button" class="replay">Replay</button>
